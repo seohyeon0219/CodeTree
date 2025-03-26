@@ -1,12 +1,12 @@
-arr = input().split()
-a, b = int(arr[0]), int(arr[1])
-
 satisfied = False
+
+a, b, c = map(int, input().split())
+
 for i in range(a, b+1):
-    if i % 2 == 0:
+    if i % c == 0:
         satisfied = True
 
-if satisfied == True:
-    print("Exists")
+if satisfied = True:
+    print("YES")
 else:
-    print("Not exists")
+    print("NO")
