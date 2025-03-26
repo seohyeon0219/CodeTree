@@ -1,5 +1,5 @@
 n = int(input())
-cnt = 1
+cnt = 0
 
 while True:
     n = n // 2
