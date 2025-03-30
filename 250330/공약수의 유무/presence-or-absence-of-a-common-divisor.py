@@ -8,5 +8,6 @@ for i in range(a, b+1):
     else:
         print(0)
         satisfied += 1
-    if satisfied == 1:
+
+    if satisfied >= 1:
         break
