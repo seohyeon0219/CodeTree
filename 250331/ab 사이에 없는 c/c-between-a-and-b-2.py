@@ -6,6 +6,6 @@ for i in range(a, b+1):
         satisfied = True
 
 if satisfied == True:
-    print("No")
+    print("NO")
 else:
     print("YES")
