@@ -1,7 +1,7 @@
-arr = map(int, input().split())
+arr = list(map(int, input().split()))
 sum = 0
 
-for elem in arr:
-    sum += elem
+for i in arr:
+    sum += arr[i]
 
 print(sum)
