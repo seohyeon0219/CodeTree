@@ -7,7 +7,5 @@ for elem in arr:
     else:
         break
 
-reversed_arr_2 = arr_2[::-1]
-
-for elem in reversed_arr_2:
-    print(elem, end=" ")
+for i in range(9, -1, -1):
+    print(arr_2[i], end=" ")
