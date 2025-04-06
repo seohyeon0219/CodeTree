@@ -3,7 +3,7 @@ arr2 = []
 
 for elem in arr:
     if elem == 0:
-        continue
+        break
     elif elem % 2 == 1:
         arr2.append(elem + 3)
     elif elem % 2 == 0:
