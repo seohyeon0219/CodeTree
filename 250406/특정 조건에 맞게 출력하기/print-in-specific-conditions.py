@@ -6,7 +6,7 @@ for elem in arr:
         continue
     elif elem % 2 == 1:
         arr2.append(elem + 3)
-    else:
+    elif elem % 2 == 0:
         arr2.append(elem // 2)
 
 for elem in arr2:
