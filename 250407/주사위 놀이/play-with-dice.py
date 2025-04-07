@@ -5,8 +5,8 @@ cnt = 0
 for elem in arr:
     cnt_arr[elem - 1] += 1
 
-for i, elem in enumerate(cnt_arr):
-    print(f'{i+1} - {elem}')
+# for i, elem in enumerate(cnt_arr):
+#     print(f'{i+1} - {elem}')
 
-# for i in range(len(cnt_arr)):
-#     print(f'{i+1} - {cnt_arr[i]}')
+for i in range(len(cnt_arr)):
+    print(f'{i+1} - {cnt_arr[i]}')
