@@ -6,7 +6,7 @@ for elem in score:
         section = elem // 10
         cnt[section] += 1
     else:
-        break
+        continue
 
 for i in range(10, 0, -1):
     print(f'{i*10} - {cnt[i]}')
