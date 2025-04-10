@@ -8,7 +8,5 @@ for elem in score:
     else:
         break
 
-print(score)
-print(cnt)
 for i in range(10, 0, -1):
     print(f'{i*10} - {cnt[i]}')
