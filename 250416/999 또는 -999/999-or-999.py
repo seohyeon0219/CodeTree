@@ -2,18 +2,17 @@ arr = list(map(int, input().split()))
 
 for i in range(len(arr)):
     if arr[i] == 999 or arr[i] == -999:
-        new_arr = arr[:i]
+        arr2 = arr[:i]
 
-# print(max(new_arr), min(new_arr))
+# print(max(arr2), min(arr2))
 
-val = new_arr[0]
-min_val, max_val = 0, 0
+max_val, min_val = arr[0], arr[0]
 
-for elem in new_arr:
-    if elem <= val:
-        min_val = elem
-    if elem >= val:
-        max_val = elem
+for i in range(len(arr2)):
+    if arr2[i] > max_val:
+        max_val = arr2[i]
+    if arr2[i] < min_val:
+        min_val = arr2[i]
 
 print(max_val, min_val)
 
