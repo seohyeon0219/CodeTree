@@ -5,12 +5,15 @@ for i in range(len(arr)):
         new_arr = arr[:i]
 
 # print(max(new_arr), min(new_arr))
+
 val = new_arr[0]
 min_val, max_val = 0, 0
+
 for elem in new_arr:
-    if elem < val:
+    if elem <= val:
         min_val = elem
-    if elem > val:
+    if elem >= val:
         max_val = elem
 
 print(max_val, min_val)
+
