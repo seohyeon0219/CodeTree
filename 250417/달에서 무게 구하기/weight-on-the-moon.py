@@ -1,4 +1,4 @@
 weight = 13
 gravitation = 0.165
-
-print(f'{weight * gravitation : .6f}')
+result = weight * gravitation
+print(f'{result : .6f}')
