@@ -1,5 +1,4 @@
 weight = 13
-gravitation = 0.165
+gravity = 0.165
 
-print(f'{weight} * {gravitation : .6f} = {weight * gravitation : .6f}')
-# print(f'{weight} * {gravitation} = {result: .6f}')
+print(f'{weight} * {gravity :.6f} = {weight * gravity :.6f}')
