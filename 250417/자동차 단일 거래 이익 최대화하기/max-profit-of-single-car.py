@@ -5,5 +5,5 @@ new_price = []
 for i in range(n):
     if price[i] == min(price):
         new_price = price[i:]
-
+print(new_price)
 print(max(new_price) - min(new_price))
