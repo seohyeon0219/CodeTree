@@ -1,9 +1,10 @@
-n = int(input()) # n년
-price = list(map(int, input().split())) # n년 동안의 가격
-new_price = []
+n = int(input())
+price_arr = list(map(int, input().split()))
+
+min_val = price_arr[0]
 
 for i in range(n):
-    if price[i] == min(price):
-        new_price = price[i:]
-print(new_price)
-print(max(new_price) - min(new_price))
+    if min_val > price_arr[i]:
+        min_val = price_arr[i]
+
+print(max(price_arr) - min_val)
