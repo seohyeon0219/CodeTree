@@ -1,0 +1,1 @@
+print("Total days in Year"\n365\n"Circumference rate"\n3.1415926535)
