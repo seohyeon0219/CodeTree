@@ -1,2 +1,2 @@
 n = int(input())
-print(f'{n:.1f}')
+print(f'{n:.2f}')
