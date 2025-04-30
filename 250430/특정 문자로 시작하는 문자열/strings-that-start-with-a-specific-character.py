@@ -8,5 +8,5 @@ for i in range(n):
     if arr[i][0] == m:
         cnt += 1
         sum += len(arr[i])
-print(cnt)
+        
 print(f'{cnt} {sum/cnt:.2f}')
