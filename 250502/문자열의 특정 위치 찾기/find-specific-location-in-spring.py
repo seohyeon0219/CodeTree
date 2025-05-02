@@ -1,3 +1,6 @@
 s, a = input().split()
 
-print(s.find(a))
+if a in s:
+    print(s.find(a))
+else:
+    print('No')
