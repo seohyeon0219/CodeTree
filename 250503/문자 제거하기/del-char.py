@@ -7,6 +7,8 @@ while cnt > 1:
         cnt -= 1
         s.pop(n)
         print(''.join(s))
-    if n >= len(s):
+    else:
         s.pop(-1)
         print(''.join(s))
+    if len(s) == 1:
+        break
